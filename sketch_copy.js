@@ -18,10 +18,10 @@ let r=200;
 let g=200;
 let b=200;
 let name=["The Stallion", "The Ice Charger","Symbol","Bartholomew","The Speedster"];
-let pixel
+let pixel;
 
 function preload() {
-  pixel=loadFont("pixel.ttf")
+  pixel=loadFont("pixel.ttf");
   carSkin.push(loadImage("BlueCar.png"));
   carSkin.push(loadImage("GreenCar.png"));
   carSkin.push(loadImage("WhiteCar.png"));
